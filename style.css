@@ -8,6 +8,7 @@
 
 body{
     background-color: hsl(0, 0%,10%);
+    
 }
 
 #calculitor{
@@ -38,21 +39,22 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
     width: 100%;
     padding: 10px;
-    row-gap: 2rem;
+    row-gap: 1rem;
+   
 }
 
 .row{
-  
+   
     display: flex;
     flex-wrap: nowrap;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-start;
-    column-gap: 10vw;
-   
+    column-gap: 5vw;
     width: 100%;
+    padding: 10px;
 }
 
 
@@ -60,8 +62,8 @@ body{
 .row button{
 
         font-size: clamp(2rem, 10vw, 8rem);
-        width: clamp(3rem, 10vw, 8rem);
-        height: clamp(3rem, 10vw, 8rem);
+        width: clamp(3rem, 20vw, 8rem);
+        height: clamp(3rem, 20vw, 8rem);
         border-radius: 50%;
         background-color: hsl(0, 0%, 20%);
         border: none;
