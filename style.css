@@ -30,6 +30,7 @@ body{
     color: rgb(255, 255, 255);
     font-size: clamp(1rem,10vw,8rem);
     padding: 1rem 1rem;
+    margin-bottom: 4vw;
     outline: none;
 
 }
